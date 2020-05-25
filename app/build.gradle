@@ -9,7 +9,7 @@ android {
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        applicationId "com.farmerbb.notepad"
+        applicationId "walia.my.simplenotepad"
         minSdkVersion 14
         targetSdkVersion 28
 
@@ -70,4 +70,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'org.apache.commons:commons-lang3:3.8.1'
     implementation 'us.feras.mdv:markdownview:1.1.0'
+
+    implementation 'com.google.firebase:firebase-ads:12.0.0'
+
 }
